@@ -1,0 +1,356 @@
+@charset"UTF-8";
+
+/*共通部分------------------------*/
+
+html{
+    font-size: 100%;
+}
+body{
+    font-family: 'open Sans';
+    line-height: 1.7;
+    color:#595959;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    /*max-width: 1100px;*/
+    margin:0 auto;
+    padding: 0 4%;
+}
+
+/*header--------------------------*/
+.logo{
+    font-size: 20px;
+    width: 210px;
+    padding-top: 33px;
+    color:#fff
+}
+.logo:hover{
+    color:#595959;
+}
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 33px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 40px;
+}
+.main-nav a{
+    color:#fff
+}
+.main-nav a:hover{
+    color:#595959;
+}
+.page-header{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3A0A0;
+}
+
+/*home--------------------------------*/
+.home{
+    height: 700px;
+    padding-top: 305px;
+    text-align: right;
+    letter-spacing:1.25rem
+}
+h1{
+    font-size: 50px;
+    font-family: 'Josefin Sans';
+}
+
+.home p{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    letter-spacing:1.25rem
+}
+.home.wrapper{
+    text-align: center;
+}
+
+ /*background img*/
+.big-bg{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/cristina-graf-adamoli-ELM74Lhmyfo-unsplash.jpg);
+}
+/*top about---------------------------*/
+.about{
+    height: 700px;
+    background-color: #F0EDD4;
+}
+.about h2{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+    letter-spacing: 10px;
+}
+.about p{
+    font-size:20px ;
+    line-height:48px ;
+    margin-left: 20px;
+    letter-spacing: 10px;
+}
+/*.nnn{
+    margin-top: 100px;
+    text-align: right;
+    letter-spacing: 10px;
+}*/
+
+.flex img{
+    object-fit: cover;
+    margin-left: 207px;
+}
+.flex{
+    display: flex;
+    padding-top: 57px;
+    align-items: flex-start;
+}
+/*top works------------------------------*/
+.works{
+    height: 1147px;
+    background-color: #F9FBE7;
+}
+.works h2{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+    letter-spacing: 10px;
+}
+.works p{
+    font-size:25px ;
+    /*margin-left: 208px;*/
+    letter-spacing: 10px;
+    margin-top: 70px;
+}
+.works img{
+    margin-top: 48px;
+}
+
+.flextitle{
+    display: flex;
+    justify-content: space-around;
+}
+.fleximg{
+    display: flex;
+    width: 897px;
+    margin-left: 208px;
+    justify-content:space-between;
+    /*justify-content: space-around;*/
+}
+
+/*top contact----------------------------*/
+.contact{
+    height: 537px;
+    background-color: #F0EDD4;
+}
+.contact h2{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+    letter-spacing: 10px;
+}
+.contact p{
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 81px;
+}
+/*footer----------------------------*/
+.footer{
+    height: 262px;
+    background-color: #FEA1A1;
+}
+.footer-a{
+    text-align: center;
+    padding-top: 111px;
+}
+
+/*button-----------------------------*/
+.button{
+    font-size: 20px;
+    background-color: #ECCDB4;
+    border-radius: 20px;
+    padding: 3px 20px;
+    color:#595959; 
+}
+.button:hover{
+    color:#fff
+}
+.button.wrapper{
+    text-align: center;
+}
+.button-contact{
+    font-size: 20px;
+    background-color: #ECCDB4;
+    border-radius: 20px;
+    padding: 3px 20px;
+    color:#595959; 
+}
+.button-contact:hover{
+    color:#fff
+}
+/*about--------------------------------*/
+/*title-------------*/
+.title-back{
+    background-image:url(../img/タイトル.png);
+    height: 395.53px;
+    background-size: cover;
+
+}
+.title{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+    letter-spacing: 20px;
+}
+/*main---------------*/
+.about2{
+    height: 1300px;
+    background-color:#F9FBE7
+}
+.about2 h2{
+    font-size: 30px;
+    letter-spacing: 10px;
+    padding-top: 70px;
+    padding-left: 177px;
+}
+.about2 img{
+    padding-top: 46px;
+    padding-left: 155px;
+    padding-right: 158px;
+}
+/*.about3{
+    padding-top: 164px;
+}*/
+.flexa{
+    display: flex;
+    align-items: flex-start;/*画像のびない*/
+}
+.flexabput{
+    display: flex;
+}
+
+hr{
+    height: 3px;
+    background-color: #595959;
+}
+h3{
+    line-height: 48px;
+    text-align: center;
+}
+.keireki{
+    font-size: 18px;
+    line-height: 48px;
+    letter-spacing: 10px;
+    padding-left: 82px;
+}
+.p1{
+    font-size: 18px;
+    line-height: 48px;
+    letter-spacing: 10px;
+    padding-top: 84px;
+    padding-left: 345px;
+}
+.p2,.p3,.p4{
+    font-size: 18px;
+    line-height: 48px;
+    letter-spacing: 10px;
+    padding-top: 50px;
+    padding-left: 345px;
+}
+.p5{
+    font-size: 18px;
+    letter-spacing: 10px;
+    text-align: right;
+    padding-right: 325px;
+    padding-top: 50px;
+}
+
+/*works---------------------------------------*/
+.works2{
+    height: 1788px;
+    background-color:#F9FBE7
+}
+.works2 h2{
+    font-size: 30px;
+    letter-spacing: 10px;
+    padding-top: 70px;
+    padding-left: 155px;
+}
+.flexworks{
+    display: flex;
+    margin-top: 63px;
+    padding-left: 155px;
+}
+.flexworks p{
+    padding-left: 90px;
+}
+
+/*CONTACT----------------------------------------*/
+.contact2{
+    width: 1280px;
+    height: 2039px;
+}
+h4{
+    color: #595959;
+    padding-left: 184px;
+    padding-top: 70px;
+    font-size: 30px;
+    font-weight:700;
+    font-family: Noto Sans;
+    line-height: 48px;
+    letter-spacing: 10px;
+}
+form div{
+    margin-bottom: 14px;
+    margin-top: 94px;
+}
+label{
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left:279px ;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    background:#ECCDB4 ;
+    border: 1px #fff solid;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 279px;
+}
+
+
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    max-width: 722px;
+}
+textarea{
+    width: 100%;
+    max-width: 722px;
+    height: 20rem;
+}
+input[type="submit"]{
+    border: none;
+    cursor:pointer;
+    line-height: 1;
+}
+.button2{
+    font-size: 20px;
+    background-color: #ECCDB4;
+    border-radius: none;
+    padding: 16px 48px;
+    color:#595959; 
+    margin-left:843px ;
+}
+.button2:hover{
+    color:#fff
+}
